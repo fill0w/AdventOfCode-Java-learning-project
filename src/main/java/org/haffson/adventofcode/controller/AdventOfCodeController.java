@@ -37,11 +37,11 @@ public class AdventOfCodeController {
     /**
      * {@code @Autowired} constructor of this controller.
      *
-     * @param adventOfCodeService {@code @Autowired} adventOfCodeService
+     * @param service {@code @Autowired} adventOfCodeService
      */
     @Autowired
-    public AdventOfCodeController(AdventOfCodeService adventOfCodeService) {
-        this.adventOfCodeService = adventOfCodeService;
+    public AdventOfCodeController(AdventOfCodeService service) {
+        this.adventOfCodeService = service;
     }
 
     /**
